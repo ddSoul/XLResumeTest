@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFEA3221D816E550034EA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFEA3211D816E550034EA46 /* main.m */; };
+		EEFEA3251D816E550034EA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFEA3241D816E550034EA46 /* AppDelegate.m */; };
+		EEFEA32D1D816E550034EA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFEA32C1D816E550034EA46 /* Assets.xcassets */; };
+		EEFEA33B1D816E550034EA46 /* XLResumeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFEA33A1D816E550034EA46 /* XLResumeTestTests.m */; };
+		EEFEA3461D816E550034EA46 /* XLResumeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFEA3451D816E550034EA46 /* XLResumeTestUITests.m */; };
+		EEFEA3561D816EFD0034EA46 /* ResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFEA3541D816EFD0034EA46 /* ResumeViewController.m */; };
+		EEFEA3571D816EFD0034EA46 /* ResumeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFEA3551D816EFD0034EA46 /* ResumeViewController.xib */; };
+		EEFEA35A1D8170D10034EA46 /* XLResumeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFEA3591D8170D10034EA46 /* XLResumeHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFEA3371D816E550034EA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFEA3151D816E550034EA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFEA31C1D816E550034EA46;
+			remoteInfo = XLResumeTest;
+		};
+		EEFEA3421D816E550034EA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFEA3151D816E550034EA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFEA31C1D816E550034EA46;
+			remoteInfo = XLResumeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEFEA31D1D816E550034EA46 /* XLResumeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLResumeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFEA3211D816E550034EA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEFEA3231D816E550034EA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEFEA3241D816E550034EA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEFEA32C1D816E550034EA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEFEA3311D816E550034EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFEA3361D816E550034EA46 /* XLResumeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLResumeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFEA33A1D816E550034EA46 /* XLResumeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLResumeTestTests.m; sourceTree = "<group>"; };
+		EEFEA33C1D816E550034EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFEA3411D816E550034EA46 /* XLResumeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLResumeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFEA3451D816E550034EA46 /* XLResumeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLResumeTestUITests.m; sourceTree = "<group>"; };
+		EEFEA3471D816E550034EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFEA3531D816EFD0034EA46 /* ResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeViewController.h; sourceTree = "<group>"; };
+		EEFEA3541D816EFD0034EA46 /* ResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeViewController.m; sourceTree = "<group>"; };
+		EEFEA3551D816EFD0034EA46 /* ResumeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeViewController.xib; sourceTree = "<group>"; };
+		EEFEA3581D8170D10034EA46 /* XLResumeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLResumeHelper.h; sourceTree = "<group>"; };
+		EEFEA3591D8170D10034EA46 /* XLResumeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLResumeHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFEA31A1D816E550034EA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFEA3331D816E550034EA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFEA33E1D816E550034EA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFEA3141D816E550034EA46 = {
+			isa = PBXGroup;
+			children = (
+				EEFEA31F1D816E550034EA46 /* XLResumeTest */,
+				EEFEA3391D816E550034EA46 /* XLResumeTestTests */,
+				EEFEA3441D816E550034EA46 /* XLResumeTestUITests */,
+				EEFEA31E1D816E550034EA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFEA31E1D816E550034EA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFEA31D1D816E550034EA46 /* XLResumeTest.app */,
+				EEFEA3361D816E550034EA46 /* XLResumeTestTests.xctest */,
+				EEFEA3411D816E550034EA46 /* XLResumeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFEA31F1D816E550034EA46 /* XLResumeTest */ = {
+			isa = PBXGroup;
+			children = (
+				EEFEA3231D816E550034EA46 /* AppDelegate.h */,
+				EEFEA3241D816E550034EA46 /* AppDelegate.m */,
+				EEFEA3531D816EFD0034EA46 /* ResumeViewController.h */,
+				EEFEA3541D816EFD0034EA46 /* ResumeViewController.m */,
+				EEFEA3581D8170D10034EA46 /* XLResumeHelper.h */,
+				EEFEA3591D8170D10034EA46 /* XLResumeHelper.m */,
+				EEFEA3551D816EFD0034EA46 /* ResumeViewController.xib */,
+				EEFEA32C1D816E550034EA46 /* Assets.xcassets */,
+				EEFEA3311D816E550034EA46 /* Info.plist */,
+				EEFEA3201D816E550034EA46 /* Supporting Files */,
+			);
+			path = XLResumeTest;
+			sourceTree = "<group>";
+		};
+		EEFEA3201D816E550034EA46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFEA3211D816E550034EA46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEFEA3391D816E550034EA46 /* XLResumeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFEA33A1D816E550034EA46 /* XLResumeTestTests.m */,
+				EEFEA33C1D816E550034EA46 /* Info.plist */,
+			);
+			path = XLResumeTestTests;
+			sourceTree = "<group>";
+		};
+		EEFEA3441D816E550034EA46 /* XLResumeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFEA3451D816E550034EA46 /* XLResumeTestUITests.m */,
+				EEFEA3471D816E550034EA46 /* Info.plist */,
+			);
+			path = XLResumeTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFEA31C1D816E550034EA46 /* XLResumeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFEA34A1D816E550034EA46 /* Build configuration list for PBXNativeTarget "XLResumeTest" */;
+			buildPhases = (
+				EEFEA3191D816E550034EA46 /* Sources */,
+				EEFEA31A1D816E550034EA46 /* Frameworks */,
+				EEFEA31B1D816E550034EA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLResumeTest;
+			productName = XLResumeTest;
+			productReference = EEFEA31D1D816E550034EA46 /* XLResumeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFEA3351D816E550034EA46 /* XLResumeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFEA34D1D816E550034EA46 /* Build configuration list for PBXNativeTarget "XLResumeTestTests" */;
+			buildPhases = (
+				EEFEA3321D816E550034EA46 /* Sources */,
+				EEFEA3331D816E550034EA46 /* Frameworks */,
+				EEFEA3341D816E550034EA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFEA3381D816E550034EA46 /* PBXTargetDependency */,
+			);
+			name = XLResumeTestTests;
+			productName = XLResumeTestTests;
+			productReference = EEFEA3361D816E550034EA46 /* XLResumeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFEA3401D816E550034EA46 /* XLResumeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFEA3501D816E550034EA46 /* Build configuration list for PBXNativeTarget "XLResumeTestUITests" */;
+			buildPhases = (
+				EEFEA33D1D816E550034EA46 /* Sources */,
+				EEFEA33E1D816E550034EA46 /* Frameworks */,
+				EEFEA33F1D816E550034EA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFEA3431D816E550034EA46 /* PBXTargetDependency */,
+			);
+			name = XLResumeTestUITests;
+			productName = XLResumeTestUITests;
+			productReference = EEFEA3411D816E550034EA46 /* XLResumeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFEA3151D816E550034EA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dxl;
+				TargetAttributes = {
+					EEFEA31C1D816E550034EA46 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EEFEA3351D816E550034EA46 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEFEA31C1D816E550034EA46;
+					};
+					EEFEA3401D816E550034EA46 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEFEA31C1D816E550034EA46;
+					};
+				};
+			};
+			buildConfigurationList = EEFEA3181D816E550034EA46 /* Build configuration list for PBXProject "XLResumeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFEA3141D816E550034EA46;
+			productRefGroup = EEFEA31E1D816E550034EA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFEA31C1D816E550034EA46 /* XLResumeTest */,
+				EEFEA3351D816E550034EA46 /* XLResumeTestTests */,
+				EEFEA3401D816E550034EA46 /* XLResumeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFEA31B1D816E550034EA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFEA32D1D816E550034EA46 /* Assets.xcassets in Resources */,
+				EEFEA3571D816EFD0034EA46 /* ResumeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFEA3341D816E550034EA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFEA33F1D816E550034EA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFEA3191D816E550034EA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFEA35A1D8170D10034EA46 /* XLResumeHelper.m in Sources */,
+				EEFEA3251D816E550034EA46 /* AppDelegate.m in Sources */,
+				EEFEA3561D816EFD0034EA46 /* ResumeViewController.m in Sources */,
+				EEFEA3221D816E550034EA46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFEA3321D816E550034EA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFEA33B1D816E550034EA46 /* XLResumeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFEA33D1D816E550034EA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFEA3461D816E550034EA46 /* XLResumeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFEA3381D816E550034EA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFEA31C1D816E550034EA46 /* XLResumeTest */;
+			targetProxy = EEFEA3371D816E550034EA46 /* PBXContainerItemProxy */;
+		};
+		EEFEA3431D816E550034EA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFEA31C1D816E550034EA46 /* XLResumeTest */;
+			targetProxy = EEFEA3421D816E550034EA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEFEA3481D816E550034EA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEFEA3491D816E550034EA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFEA34B1D816E550034EA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLResumeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLResumeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEFEA34C1D816E550034EA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLResumeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLResumeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEFEA34E1D816E550034EA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLResumeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLResumeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLResumeTest.app/XLResumeTest";
+			};
+			name = Debug;
+		};
+		EEFEA34F1D816E550034EA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLResumeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLResumeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLResumeTest.app/XLResumeTest";
+			};
+			name = Release;
+		};
+		EEFEA3511D816E550034EA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLResumeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLResumeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLResumeTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEFEA3521D816E550034EA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLResumeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLResumeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLResumeTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFEA3181D816E550034EA46 /* Build configuration list for PBXProject "XLResumeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFEA3481D816E550034EA46 /* Debug */,
+				EEFEA3491D816E550034EA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFEA34A1D816E550034EA46 /* Build configuration list for PBXNativeTarget "XLResumeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFEA34B1D816E550034EA46 /* Debug */,
+				EEFEA34C1D816E550034EA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFEA34D1D816E550034EA46 /* Build configuration list for PBXNativeTarget "XLResumeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFEA34E1D816E550034EA46 /* Debug */,
+				EEFEA34F1D816E550034EA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFEA3501D816E550034EA46 /* Build configuration list for PBXNativeTarget "XLResumeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFEA3511D816E550034EA46 /* Debug */,
+				EEFEA3521D816E550034EA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFEA3151D816E550034EA46 /* Project object */;
+}
