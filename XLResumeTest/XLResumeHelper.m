@@ -73,6 +73,7 @@ typedef void (^progressBlock)();
 }
 
 #pragma mark -- 成功失败的block
+
 /**
  *  设置成功、失败回调block
  *
